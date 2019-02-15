@@ -1,0 +1,2 @@
+from test_web_app.serializers.district import DistrictSerializer
+from test_web_app.serializers.municipality import MunicipalitySerializer
