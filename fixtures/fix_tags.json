@@ -1,0 +1,151 @@
+[{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Educacion"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Salud"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Turismo"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Sostenible"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Generadora de Paz"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Seguridad"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Equidad"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Urbanista"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Futurista"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Limpia"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Positiva"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Comercio"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Global"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Superior"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Gobierno"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Transporte"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Transitable"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Medio Ambiente"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Naturaleza"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Playa"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Local"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Familiar"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Reciclaje"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Valiente"
+		}
+	},
+	{
+		"model": "test_web_app.tag",
+		"fields": {
+			"name": "Amigable"
+		}
+	}
+]

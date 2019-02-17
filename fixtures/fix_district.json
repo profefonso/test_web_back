@@ -1,18 +1,265 @@
-[
-  {
-    "model": "test_web_app.district",
-    "pk": 1,
-    "fields": {
-      "name": "ANTIOQUIA",
-      "iso_district_code": "05"
-    }
-  },
-  {
-    "model": "test_web_app.district",
-    "pk": 2,
-    "fields": {
-      "name": "ATLANTICO",
-      "iso_district_code": "08"
-    }
-  }
+[{
+		"model": "test_web_app.district",
+		"pk": 1,
+		"fields": {
+			"name": "ANTIOQUIA",
+			"iso_district_code": "05"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 2,
+		"fields": {
+			"name": "ATLANTICO",
+			"iso_district_code": "08"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 3,
+		"fields": {
+			"name": "BOGOTA",
+			"iso_district_code": "11"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 4,
+		"fields": {
+			"name": "BOLIVAR",
+			"iso_district_code": "13"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 5,
+		"fields": {
+			"name": "BOYACA",
+			"iso_district_code": "15"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 6,
+		"fields": {
+			"name": "CALDAS",
+			"iso_district_code": "17"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 7,
+		"fields": {
+			"name": "CAQUETA",
+			"iso_district_code": "18"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 8,
+		"fields": {
+			"name": "CAUCA",
+			"iso_district_code": "19"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 9,
+		"fields": {
+			"name": "CESAR",
+			"iso_district_code": "20"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 10,
+		"fields": {
+			"name": "CORDOBA",
+			"iso_district_code": "23"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 11,
+		"fields": {
+			"name": "CUNDINAMARCA",
+			"iso_district_code": "25"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 12,
+		"fields": {
+			"name": "CHOCO",
+			"iso_district_code": "27"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 13,
+		"fields": {
+			"name": "HUILA",
+			"iso_district_code": "41"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 14,
+		"fields": {
+			"name": "LA GUAJIRA",
+			"iso_district_code": "44"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 15,
+		"fields": {
+			"name": "MAGDALENA",
+			"iso_district_code": "47"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 16,
+		"fields": {
+			"name": "META",
+			"iso_district_code": "50"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 17,
+		"fields": {
+			"name": "NARIÑO",
+			"iso_district_code": "52"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 18,
+		"fields": {
+			"name": "N. DE SANTANDER",
+			"iso_district_code": "54"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 19,
+		"fields": {
+			"name": "QUINDIO",
+			"iso_district_code": "63"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 20,
+		"fields": {
+			"name": "RISARALDA",
+			"iso_district_code": "66"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 21,
+		"fields": {
+			"name": "SANTANDER",
+			"iso_district_code": "68"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 22,
+		"fields": {
+			"name": "SUCRE",
+			"iso_district_code": "70"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 23,
+		"fields": {
+			"name": "TOLIMA",
+			"iso_district_code": "73"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 24,
+		"fields": {
+			"name": "VALLE DEL CAUCA",
+			"iso_district_code": "76"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 25,
+		"fields": {
+			"name": "ARAUCA",
+			"iso_district_code": "81"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 26,
+		"fields": {
+			"name": "CASANARE",
+			"iso_district_code": "85"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 27,
+		"fields": {
+			"name": "PUTUMAYO",
+			"iso_district_code": "86"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 28,
+		"fields": {
+			"name": "SAN ANDRES",
+			"iso_district_code": "88"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 29,
+		"fields": {
+			"name": "AMAZONAS",
+			"iso_district_code": "91"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 30,
+		"fields": {
+			"name": "GUAINIA",
+			"iso_district_code": "94"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 31,
+		"fields": {
+			"name": "GUAVIARE",
+			"iso_district_code": "95"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 32,
+		"fields": {
+			"name": "VAUPES",
+			"iso_district_code": "97"
+		}
+	},
+	{
+		"model": "test_web_app.district",
+		"pk": 33,
+		"fields": {
+			"name": "VICHADA",
+			"iso_district_code": "99"
+		}
+	}
 ]

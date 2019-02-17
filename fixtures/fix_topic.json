@@ -1,0 +1,146 @@
+[
+	{
+		"model": "test_web_app.topic",
+		"fields": {
+			"date": "2019-02-17",
+			"municipality": "23",
+			"tags": "Sostenible",
+			"state": "active"
+		}
+	},
+	{
+		"model": "test_web_app.topic",
+		"fields": {
+			"date": "2019-02-17",
+			"municipality": "44",
+			"tags": "Limpia",
+			"state": "active"
+		}
+	},
+	{
+		"model": "test_web_app.topic",
+		"fields": {
+			"date": "2019-02-17",
+			"municipality": "109",
+			"tags": "Activa",
+			"state": "active"
+		}
+	},
+	{
+		"model": "test_web_app.topic",
+		"fields": {
+			"date": "2019-02-17",
+			"municipality": "98",
+			"tags": "Segura",
+			"state": "active"
+		}
+	},
+	{
+		"model": "test_web_app.topic",
+		"fields": {
+			"date": "2019-02-17",
+			"municipality": "223",
+			"tags": "Amigable",
+			"state": "active"
+		}
+	},
+	{
+		"model": "test_web_app.topic",
+		"fields": {
+			"date": "2019-02-17",
+			"municipality": "700",
+			"tags": "Financiera",
+			"state": "active"
+		}
+	},
+	{
+		"model": "test_web_app.topic",
+		"fields": {
+			"date": "2019-02-17",
+			"municipality": "554",
+			"tags": "Trasporte",
+			"state": "active"
+		}
+	},
+	{
+		"model": "test_web_app.topic",
+		"fields": {
+			"date": "2019-02-17",
+			"municipality": "457",
+			"tags": "Abierta",
+			"state": "active"
+		}
+	},
+	{
+		"model": "test_web_app.topic",
+		"fields": {
+			"date": "2019-02-17",
+			"municipality": "309",
+			"tags": "Futurista",
+			"state": "active"
+		}
+	},
+	{
+		"model": "test_web_app.topic",
+		"fields": {
+			"date": "2019-02-17",
+			"municipality": "2",
+			"tags": "Tipica",
+			"state": "active"
+		}
+	},
+	{
+		"model": "test_web_app.topic",
+		"fields": {
+			"date": "2019-02-17",
+			"municipality": "456",
+			"tags": "Turistica",
+			"state": "active"
+		}
+	},
+	{
+		"model": "test_web_app.topic",
+		"fields": {
+			"date": "2019-02-17",
+			"municipality": "999",
+			"tags": "Grande",
+			"state": "active"
+		}
+	},
+	{
+		"model": "test_web_app.topic",
+		"fields": {
+			"date": "2019-02-17",
+			"municipality": "765",
+			"tags": "Operaria",
+			"state": "active"
+		}
+	},
+	{
+		"model": "test_web_app.topic",
+		"fields": {
+			"date": "2019-02-17",
+			"municipality": "145",
+			"tags": "Segura",
+			"state": "active"
+		}
+	},
+	{
+		"model": "test_web_app.topic",
+		"fields": {
+			"date": "2019-02-17",
+			"municipality": "556",
+			"tags": "Abierta",
+			"state": "active"
+		}
+	},
+	{
+		"model": "test_web_app.topic",
+		"fields": {
+			"date": "2019-02-17",
+			"municipality": "981",
+			"tags": "Viable",
+			"state": "active"
+		}
+	}
+]
