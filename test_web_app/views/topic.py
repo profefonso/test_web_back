@@ -8,7 +8,7 @@ from rest_framework.pagination import PageNumberPagination
 
 
 class TopicPagination(PageNumberPagination):
-    page_size = 3
+    page_size = 5
 
 
 class TopicList(generics.ListCreateAPIView):
@@ -17,10 +17,15 @@ class TopicList(generics.ListCreateAPIView):
     serializer_class = TopicSerializer
     name = 'topic-list'
 
+    def get_queryset(self):
+        queryset = Topic.objects.filter(state='active').order_by('id')
+        return queryset
+
     def create(self, request):
         try:
             data = request.data
-            municipality = Municipality.objects.get(pk=data['municipality'])
+            id_municipality = int(data['municipality'])
+            municipality = Municipality.objects.get(pk=id_municipality)
             topic = Topic()
             topic.date = data['date']
             topic.tags = data['tags']
