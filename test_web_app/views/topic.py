@@ -22,14 +22,16 @@ class TopicList(generics.ListCreateAPIView):
         return queryset
 
     def create(self, request):
-        print(request.data)
         try:
             data = request.data
             id_municipality = int(data['municipality'])
             municipality = Municipality.objects.get(pk=id_municipality)
             topic = Topic()
             topic.date = str(data['date'])[:10]
-            topic.tags = data['tags']
+            if data['tags']['name']:
+                topic.tags = data['tags']['name']
+            else:
+                topic.tags = ''
             topic.state = data['state']
             topic.municipality = municipality
             topic.save()

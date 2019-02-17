@@ -1,0 +1,18 @@
+[
+  {
+    "model": "test_web_app.district",
+    "pk": 1,
+    "fields": {
+      "name": "ANTIOQUIA",
+      "iso_district_code": "05"
+    }
+  },
+  {
+    "model": "test_web_app.district",
+    "pk": 2,
+    "fields": {
+      "name": "ATLANTICO",
+      "iso_district_code": "08"
+    }
+  }
+]
