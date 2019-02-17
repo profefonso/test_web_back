@@ -18,16 +18,17 @@ class TopicList(generics.ListCreateAPIView):
     name = 'topic-list'
 
     def get_queryset(self):
-        queryset = Topic.objects.filter(state='active').order_by('id')
+        queryset = Topic.objects.filter(state='active').order_by('-id')
         return queryset
 
     def create(self, request):
+        print(request.data)
         try:
             data = request.data
             id_municipality = int(data['municipality'])
             municipality = Municipality.objects.get(pk=id_municipality)
             topic = Topic()
-            topic.date = data['date']
+            topic.date = str(data['date'])[:10]
             topic.tags = data['tags']
             topic.state = data['state']
             topic.municipality = municipality
