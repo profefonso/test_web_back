@@ -1,0 +1,40 @@
+CREATE USER test_user WITH password 'T3sT';
+CREATE DATABASE test_db WITH OWNER test_user;
+
+	
+DROP DATABASE IF EXISTS test_db;
+
+psql -U test_user test_db
+
+python manage.py startapp test_web_app
+
+python manage.py makemigrations test_web_app
+
+python manage.py migrate test_web_app
+
+python manage.py createsuperuser
+
+pip install -r requirements.txt
+
+python manage.py migrate
+
+python manage.py loaddata fixtures/fix_district.json
+python manage.py loaddata fixtures/fix_municipalitys.json
+python manage.py loaddata fixtures/fix_tags.json 
+python manage.py loaddata fixtures/fix_topic.json
+
+
+
+ng new test-web-front --routing --directory
+
+npm i bootstrap jquery popper.js
+
+ng g c components/home
+ng g c components/navbar
+ng g c components/topic
+ng g c components/page404
+
+ng g s services/dataApi
+
+docker build  -t "pruebasback:dockerfile" .
+docker run -dti --name "pruebas-web-back" -p 8000:8000 e5331075644b
